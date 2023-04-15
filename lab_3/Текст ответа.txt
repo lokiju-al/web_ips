@@ -1,0 +1,19 @@
+https://www.figma.com/file/EW0lyTSRVIXvUfkjMxaY4M/lab_3-HomeWork?node-id=1%3A156&t=Vgu2kERSNeKWayq4-1​
+​
+​position: absolute;
+width: 585px;
+height: 122px;
+left: 15px;
+top: 0px;
+
+/* Заголовок h1 */
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 55px;
+line-height: 110%;
+
+/* or 61px */
+letter-spacing: 0.02em;
+
+color: #000000;
