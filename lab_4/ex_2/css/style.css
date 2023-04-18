@@ -1,11 +1,16 @@
-.class1 {
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header-logotype {
     position: absolute;
     width: 60px;
     height: 43px;
     left: 86px;
     top: 39px;
 
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 34px;
@@ -14,7 +19,7 @@
     color: #060C31;
 }
 
-.class2 {
+.main-title {
     /* The world’s first learning solution for everyone */
 
     position: absolute;
@@ -23,19 +28,17 @@
     left: 86px;
     top: 172px;
 
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 58px;
     line-height: 64px;
-
-    /* or 110% */
-    letter-spacing: 2.9px;
+    letter-spacing: 2.7px;
 
     color: #060C31;
 }
 
-.class3 {
+.main-text {
     /* It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum. */
 
     position: absolute;
@@ -44,7 +47,7 @@
     left: 86px;
     top: 400px;
 
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -56,7 +59,7 @@
     color: #060C31;
 }
 
-.class4 {
+.main-clipart {
     /* clipart 1 */
 
     position: absolute;
@@ -68,97 +71,31 @@
     background: url(clipart.png);
 }
 
-.class5 {
-    /* Get Started */
-
-    width: 77px;
-    height: 18px;
-
-    font-family: 'Lato';
+.button {
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
     line-height: 0px;
-
-    /* or 0% */
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #ffffff;
-
-
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.class6 {
-    /* Create account */
-
-    width: 101px;
-    height: 18px;
-
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 0px;
-
-    /* or 0% */
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #060C31;
-
-
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.button1 {
-    /* Frame 2 */
-
-    /* Auto layout */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    position: absolute;
+    border-radius: 50px;
     padding: 16px 36px;
     gap: 10px;
-
-    position: absolute;
     width: 156px;
     height: 50px;
+    top: 532px;
+}
+
+.button-fill {
+    color: #FFFFFF;
     left: 86px;
-    top: 532px;
-
     background: #233FE2;
-    border-radius: 50px;
+    border: 0px;
 }
 
-.button2 {
-    /* Frame 3 */
-
-    box-sizing: border-box;
-
-    /* Auto layout */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 16px 36px;
-    gap: 10px;
-
-    position: absolute;
-    width: 156px;
-    height: 50px;
+.button-transparent {
+    color: #060C31;
+    padding: 16px 20px;
     left: 262px;
-    top: 532px;
-
     border: 1px solid #FFB0B1;
-    border-radius: 50px;
 }
