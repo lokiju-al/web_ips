@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Medium.ttf') format('ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-SemiBold.ttf') format('ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Bold.ttf') format('ttf');
+    font-weight: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+.top_menu {
+    background: #fff;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.menu_item {
+    list-style: none;
+    display: inline;
+}
+
+.menu_link {
+    text-decoration: none;
+    font: 700 15px/80px 'Raleway', sans-serif;
+    padding: 0 20px;
+    color: #282b30;
+    display: inline-block;
+}
+
+.top_block_wrapper {
+    background: url('../images/top_block.jpg') center center;
+    background-size: cover;
+    margin: 78px 0;
+    padding: 175px 0;
+    text-align: center;
+}
+
+.top_block_title_wrapper {
+    background: rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    display: inline-block;
+}
+
+.top_block_title {
+    color: #fff;
+    font: 700 48px/64px 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.content_wrapper {
+    padding: 60px 20px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.content_title {
+    font: 700 36px/46px 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #282b30;
+    margin: 0 0 40px;
+}
+
+.text {
+    font: 500 19px/27px 'Raleway', sans-serif;
+    margin: 0 0 25px;
+    color: #282b30;
+    max-width: 560px;
+}
+
+.content_list {
+    margin: 0 0 40px;
+    padding: 0 0 0 20px;
+    list-style-image: url(../images/coffee-bean.png);
+}
+
+.content_list_item {
+    font: 500 19px/27px 'Raleway', sans-serif;
+    margin: 0 0 10px;
+    color: #282b30;
+    max-width: 380px;
+}
+
+.order_button {
+    background: #0fa8ea;
+    color: #fff;
+    font: 700 16px/52px 'Raleway', sans-serif;
+    border-radius: 26px;
+    padding: 0 50px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.order_title {
+    max-width: 340px;
+    font: 700 26px/32px 'Oswald', sans-serif;
+    color: #2b2b2b;
+    margin: 0 0 26px;
+}
+
+.order_text_wrapper {
+    display: inline-block;
+    vertical-align: middle;
+    width: 430px;
+    margin-right: 110px;
+}
+
+.order_picture_wrapper {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bottom_menu {
+    background: #e8e6eb;
+    text-align: center;
+}

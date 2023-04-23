@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+.header_logotype {
+    position: absolute;
+    height: 33px;
+    left: 80px;
+    top: 34px;
+
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+    letter-spacing: 2.5px;
+
+    color: #171717;
+}
+
+.top_menu {
+    margin: 42px 0 39px 1471px;
+    text-align: center;
+    display: inline-block;
+}
+
+.menu_item {
+    list-style: none;
+    display: inline;
+}
+
+.menu_item_brown {
+    color: #C9A96E;
+}
+
+.menu_link {
+    text-decoration: none;
+    padding: 0 20px;
+    color: #282b30;
+    display: inline-block;
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.top_block_wrapper {
+    background: url('../images/header_dress_yellow.jpg') center center;
+    background-size: cover;
+    text-align: left;
+    width: 1920px;
+    height: 700px;
+}
+
+.top_block_shadow {
+    display: inline;
+    top: 0;
+    left: 0;
+}
+
+.top_block_title_wrapper {
+    margin: 490px 375px;
+    padding: 20px;
+    display: inline-block;
+    width: 560px;
+}
+
+.top_block_vehicle {
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    display: block;
+}
+
+.top_block_title {
+    color: #fff;
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    display: block;
+}
+
+.top_block_date {
+    color: #fff;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: block;
+}
