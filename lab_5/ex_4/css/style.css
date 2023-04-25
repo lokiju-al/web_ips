@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+.menu_wrapper {
+    display: inline-block;
+    vertical-align: top;
+    width: 422px;
+    height: 800px;
+    background: rgba(0, 0, 0, 0.04);
+}
+
+.menu_avatar {
+    margin: 45px 131px 0;
+    border-radius: 253px;
+}
+
+.main_photo_wrapper {
+    display: inline-block;
+    vertical-align: top;
+    width: 662px;
+    height: 800px;
+}
+
+.main_content_wrapper {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 838px;
+    height: 800px;
+    background: #F8F9FA;
+}
+
+.main_greetings_background {
+    position: absolute;
+    left: 86px;
+    top: 66px;
+    font: 700 69px/103px 'Poppins', sans-serif;
+    letter-spacing: 1.71667px;
+    color: #EDEDED;
+}
+
+.main_greetings {
+    margin: 90px 0 0 135px;
+    font: 400 23px/43px 'Montserrat', sans-serif;
+    color: #BFBFBF;
+    /* z-index: 1; */
+}
+
+.main_resume {
+    margin: 0 0 0 134px;
+    font: 700 40px/60px 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+.main_resume_brown {
+    color: #CCB78F;
+}
+
+.main_text {
+    margin: 34px 0 0 136px;
+    font: 400 18px/32px 'Montserrat', sans-serif;
+    color: #999999;
+}
+
+.main_signature {
+    margin: 16px 0 0 136px;
+    font: 400 40px/60px 'Herr Von Muellerhoff', cursive;
+    color: rgba(0, 0, 0, 0.8);
+}
