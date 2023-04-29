@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+.page-wrapper {
+    display: flex;
+}
+
+.menu {
+    display: inline-block;
+    vertical-align: top;
+    width: 422px;
+    height: 1378px;
+    background: rgba(0, 0, 0, 0.04);
+}
+
+.menu_avatar {
+    margin: 45px 131px 0;
+    border-radius: 253px;
+}
+
+.menu_title {
+    margin: 9px 0 36px 0;
+    font: 400 24px/36px 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.menu_links_wrapper {
+    display: inline;
+    list-style: none;
+    text-align: center;
+}
+
+.menu_link {
+    display: inline-block;
+    margin-bottom: 14px;
+    text-decoration: none;
+    font: 400 16px/29px 'Montserrat', sans-serif;
+    color: #282b30;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 1500px;
+}
+
+.main {
+    display: flex;
+    align-items: flex-start;
+    width: 1500px;
+}
+
+.main_content_wrapper {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 838px;
+    height: 800px;
+    background: #F8F9FA;
+}
+
+.main_greetings_background {
+    position: absolute;
+    left: 86px;
+    top: 66px;
+    font: 700 69px/103px 'Poppins', sans-serif;
+    letter-spacing: 1.71667px;
+    color: #EDEDED;
+    z-index: 1;
+}
+
+.main_greetings {
+    position: absolute;
+    left: 135px;
+    top: 90px;
+    font: 400 23px/43px 'Montserrat', sans-serif;
+    color: #BFBFBF;
+    z-index: 2;
+}
+
+.main_resume {
+    position: absolute;
+    left: 134px;
+    top: 133px;
+    font: 700 40px/60px 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+.main_resume_brown {
+    color: #CCB78F;
+}
+
+.main_text {
+    position: absolute;
+    left: 136px;
+    top: 347px;
+    width: 654px;
+    font: 400 18px/32px 'Montserrat', sans-serif;
+    color: #999999;
+}
+
+.main_signature {
+    position: absolute;
+    left: 136px;
+    top: 493px;
+    font: 400 40px/60px 'Herr Von Muellerhoff', cursive;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.footer {
+    width: 1500px;
+    height: 578px;
+    background: #242423;
+}
+
+.footer-container {
+    margin: 80px 0 0 131px;
+    width: 1240px;
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-recent-places {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.footer-block__title {
+    font: 400 16px/24px 'Poppins', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer-block__collage {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+.footer-questions {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+}
+
+.footer-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-contacts__contact {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.contact-place {
+    align-items: flex-start;
+}
+
+.contact-text {
+    width: 233px;
+    font: 400 14px/21px 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
+
+.contact-place-text {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-copyright {
+    margin-left: 6px;
+    font: 400 14px/25px 'Montserrat', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+}
