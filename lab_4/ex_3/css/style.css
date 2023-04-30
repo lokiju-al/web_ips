@@ -6,45 +6,25 @@
 .main-photo {
     position: absolute;
     width: 662px;
-    height: 800px;
     left: 140px;
     top: 104px;
-    background: url(.jpg);
-    border-radius: 0px;
 }
 
 .main-title {
     position: absolute;
     width: 500px;
-    height: 44px;
     left: 139px;
     top: 994px;
-
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 23px;
-    line-height: 43px;
-    /* identical to box height, or 188% */
-
-
+    font: 400 23px/43px 'Montserrat', sans-serif;
     color: #BFBFBF;
 }
 
 .main-resume {
     position: absolute;
     width: 500px;
-    height: 60px;
     left: 138px;
     top: 1037px;
-
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 60px;
-    /* identical to box height, or 150% */
-
+    font: 700 40px/60px 'Poppins', sans-serif;
     letter-spacing: 1px;
 
     color: #000000;
@@ -57,31 +37,17 @@
 .main-text {
     position: absolute;
     width: 654px;
-    height: 130px;
     left: 140px;
     top: 1251px;
-
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 32px;
-    /* or 180% */
-
-
+    font: 400 18px/32px 'Montserrat', sans-serif;
     color: #999999;
 }
 
 .main-signature {
     position: absolute;
     width: 141px;
-    height: 60px;
     left: 140px;
     top: 1450px;
-    font-family: 'Herr Von Muellerhoff', cursive;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 60px;
+    font: 400 40px/60px 'Herr Von Muellerhoff', cursive;
     color: rgba(0, 0, 0, 0.8);
 }

@@ -6,96 +6,59 @@
 .header-logotype {
     position: absolute;
     width: 60px;
-    height: 43px;
     left: 86px;
     top: 39px;
-
-    font-family: 'Crete Round', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 34px;
-    line-height: 43px;
-
+    font: 400 34px/43px 'Crete Round', serif;
     color: #060C31;
+    text-decoration: none;
 }
 
 .main-title {
-    /* The world’s first learning solution for everyone */
-
     position: absolute;
     width: 493px;
-    height: 192px;
     left: 86px;
     top: 172px;
-
-    font-family: 'Crete Round', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 58px;
-    line-height: 64px;
+    font: 400 58px/64px 'Crete Round', serif;
     letter-spacing: 2.7px;
-
     color: #060C31;
 }
 
 .main-text {
-    /* It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum. */
-
     position: absolute;
     width: 493px;
-    height: 84px;
     left: 86px;
     top: 400px;
-
-    font-family: 'Lato', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 28px;
-
-    /* or 187% */
+    font: 400 15px/28px 'Lato', sans-serif;
     letter-spacing: 0.75px;
-
     color: #060C31;
 }
 
 .main-clipart {
-    /* clipart 1 */
-
     position: absolute;
-    width: 717px;
-    height: 569px;
     left: 86px;
     top: 609px;
-
-    background: url(clipart.png);
 }
 
 .button {
-    font-family: 'Lato', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 0px;
     position: absolute;
     border-radius: 50px;
-    padding: 16px 36px;
-    gap: 10px;
-    width: 156px;
-    height: 50px;
+    padding: 25px 27.5px;
     top: 532px;
+    font: 700 15px/0px 'Lato', sans-serif;
+    text-decoration: none;
 }
 
 .button-fill {
-    color: #FFFFFF;
     left: 86px;
+    padding: 25px 39px;
+    color: #FFFFFF;
     background: #233FE2;
     border: 0px;
 }
 
 .button-transparent {
-    color: #060C31;
-    padding: 16px 20px;
     left: 262px;
+    color: #060C31;
+    background: #ffffff;
     border: 1px solid #FFB0B1;
 }
