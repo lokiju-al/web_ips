@@ -10,36 +10,34 @@
 }
 
 .menu {
-    display: inline-block;
-    vertical-align: top;
+    display: flex;
+    flex-direction: column;
     width: 422px;
-    height: 1378px;
     background: rgba(0, 0, 0, 0.04);
 }
 
-.menu_avatar {
+.menu__avatar {
     margin: 45px 131px 0;
     border-radius: 253px;
 }
 
-.menu_title {
-    margin: 9px 0 36px 0;
+.menu__title {
+    padding: 9px 0 36px 0;
     font: 400 24px/36px 'Poppins', sans-serif;
     text-align: center;
 }
 
-.menu_links_wrapper {
-    display: inline;
-    list-style: none;
+.menu__links-wrapper {
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    gap: 14px;
 }
 
-.menu_link {
-    display: inline-block;
-    margin-bottom: 14px;
-    text-decoration: none;
+.menu__link {
     font: 400 16px/29px 'Montserrat', sans-serif;
     color: #282b30;
+    text-decoration: none;
 }
 
 .content {
@@ -47,24 +45,19 @@
     align-items: flex-start;
     flex-wrap: wrap;
     width: 1500px;
+    background: #F8F9FA;
 }
 
 .main {
     display: flex;
     align-items: flex-start;
-    width: 1500px;
 }
 
-.main_content_wrapper {
+.main__content-wrapper {
     position: relative;
-    display: inline-block;
-    vertical-align: top;
-    width: 838px;
-    height: 800px;
-    background: #F8F9FA;
 }
 
-.main_greetings_background {
+.main__greetings-background {
     position: absolute;
     left: 86px;
     top: 66px;
@@ -74,52 +67,46 @@
     z-index: 1;
 }
 
-.main_greetings {
-    position: absolute;
-    left: 135px;
-    top: 90px;
+.main__resume {
+    display: flex;
+    flex-direction: column;
+    padding: 90px 0 0 136px;
+    width: 654px;
+}
+
+.main__greetings {
     font: 400 23px/43px 'Montserrat', sans-serif;
     color: #BFBFBF;
     z-index: 2;
 }
 
-.main_resume {
-    position: absolute;
-    left: 134px;
-    top: 133px;
+.main__title {
     font: 700 40px/60px 'Poppins', sans-serif;
     letter-spacing: 1px;
 }
 
-.main_resume_brown {
+.main__title_color-accent {
     color: #CCB78F;
 }
 
-.main_text {
-    position: absolute;
-    left: 136px;
-    top: 347px;
-    width: 654px;
+.main__text {
+    padding: 34px 0 16px 0;
     font: 400 18px/32px 'Montserrat', sans-serif;
     color: #999999;
 }
 
-.main_signature {
-    position: absolute;
-    left: 136px;
-    top: 493px;
+.main__signature {
     font: 400 40px/60px 'Herr Von Muellerhoff', cursive;
     color: rgba(0, 0, 0, 0.8);
 }
 
 .footer {
     width: 1500px;
-    height: 578px;
     background: #242423;
 }
 
-.footer-container {
-    margin: 80px 0 0 131px;
+.footer__container {
+    padding: 80px 0 0 131px;
     width: 1240px;
     display: flex;
     flex-direction: column;
@@ -132,26 +119,26 @@
     flex-wrap: wrap;
 }
 
-.footer-recent-places {
+.footer__recent-places {
     display: flex;
     flex-direction: column;
     gap: 56px;
 }
 
-.footer-block__title {
+.footer__title {
     font: 400 16px/24px 'Poppins', sans-serif;
     letter-spacing: 3px;
     text-transform: uppercase;
     color: #FFFFFF;
 }
 
-.footer-block__collage {
+.footer__collage {
     display: flex;
     flex-wrap: wrap;
     width: 300px;
 }
 
-.footer-questions {
+.footer__questions-wrapper {
     display: flex;
     flex-direction: column;
     gap: 41px;
@@ -183,8 +170,8 @@
     color: rgba(255, 255, 255, 0.5);
 }
 
-.footer-copyright {
-    margin-left: 6px;
+.footer__copyright {
+    padding: 0 0 104px 6px;
     font: 400 14px/25px 'Montserrat', sans-serif;
     color: rgba(255, 255, 255, 0.5);
 }

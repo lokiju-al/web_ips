@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Platov Alexander</title>
-    <link href="css/style.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -17,51 +17,45 @@
 <body>
     <main class="page-wrapper">
         <div class="menu">
-            <img class="menu_avatar" src="./images/profile_avatar.jpg" alt="avatar">
-            <h1 class="menu_title">Platov Alexander</h1>
-            <ul class="menu_links_wrapper">
-                <li>
-                    <a href="#" class="menu_link">Work and experience</a>
-                </li>
-                <li>
-                    <a href="#" class="menu_link">Studies</a>
-                </li>
-                <li>
-                    <a href="#" class="menu_link">Hobbies and interests</a>
-                </li>
-                <li>
-                    <a href="#" class="menu_link">Contacts</a>
-                </li>
-            </ul>
+            <img class="menu__avatar" src="./images/profile_avatar.jpg" alt="avatar">
+            <h1 class="menu__title">Platov Alexander</h1>
+            <nav class="menu__links-wrapper">
+                <a href="#" class="menu__link">Work and experience</a>
+                <a href="#" class="menu__link">Studies</a>
+                <a href="#" class="menu__link">Hobbies and interests</a>
+                <a href="#" class="menu__link">Contacts</a>
+            </nav>
         </div>
         <div class="content">
             <div class="main">
                 <img src="./images/tent.jpg" alt="photo">
-                <div class="main_content_wrapper">
-                    <p class="main_greetings_background">Platov Alexander</p>
-                    <p class="main_greetings">Hello! I'm</p>
-                    <div class="main_resume">
-                        Platov Alexander <span class="main_resume_brown">A <br>
-                            Traveler.</span> I Explore <br>
-                        The Earth
-                    </div>
-                    <div class="main_text">
-                        All the fun happens at work. Find a job that makes you happy - a worthy goal
-                        to try different directions in development. From the beginning of the working
-                        activities, tried the positions of a repairman, electrician, design engineer,
-                        electronics engineer and clerk at headquarters.
-                    </div>
-                    <div class="main_signature">
-                        A.Platov
+                <div class="main__content-wrapper">
+                    <p class="main__greetings-background">Platov Alexander</p>
+                    <div class="main__resume">
+                        <p class="main__greetings">Hello! I'm</p>
+                        <div class="main__title">
+                            Platov Alexander <span class="main__title_color-accent">A <br>
+                                Traveler.</span> I Explore <br>
+                            The Earth
+                        </div>
+                        <div class="main__text">
+                            All the fun happens at work. Find a job that makes you happy - a worthy goal
+                            to try different directions in development. From the beginning of the working
+                            activities, tried the positions of a repairman, electrician, design engineer,
+                            electronics engineer and clerk at headquarters.
+                        </div>
+                        <div class="main__signature">
+                            A.Platov
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="footer">
-                <div class="footer-container">
+                <div class="footer__container">
                     <div class="footer-content">
-                        <div class="footer-recent-places">
-                            <p class="footer-block__title">Recent places</p>
-                            <div class="footer-block__collage">
+                        <div class="footer__recent-places">
+                            <p class="footer__title">Recent places</p>
+                            <div class="footer__collage">
                                 <img src="./images/sky.jpg" alt="sky">
                                 <img src="./images/trail.jpg" alt="trail">
                                 <img src="./images/path.jpg" alt="path">
@@ -70,8 +64,8 @@
                                 <img src="./images/bag.jpg" alt="bag">
                             </div>
                         </div>
-                        <div class="footer-questions">
-                            <p class="footer-block__title">Have a Questions?</p>
+                        <div class="footer__questions-wrapper">
+                            <p class="footer__title">Have a Questions?</p>
                             <div class="footer-contacts">
                                 <div class="footer-contacts__contact contact-place">
                                     <img src="./images/place.png" alt="place">
@@ -90,7 +84,7 @@
                             </div>
                         </div>
                     </div>
-                    <p class="footer-copyright">Copyright © 2023 All rights reserved</p>
+                    <p class="footer__copyright">Copyright © 2023 All rights reserved</p>
                 </div>
             </div>
         </div>
