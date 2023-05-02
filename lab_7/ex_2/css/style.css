@@ -8,22 +8,20 @@
 .header {
     display: flex;
     flex-direction: row;
-    align-items: center;
     gap: 586px;
-    margin: 60px 0 0 88px;
+    padding: 60px 0 0 88px;
 }
 
 .logo {
     font: 400 34px/43px 'Crete Round', serif;
     color: #060C31;
+    text-decoration: none;
 }
 
 .menu {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
-    padding: 0px;
     gap: 40px;
 }
 
@@ -35,11 +33,10 @@
 }
 
 .main {
-    margin: 67px 0 0 200px;
+    padding: 61px 0 0 200px;
     display: flex;
     flex-direction: row;
-    justify-content: left;
-    align-items: top;
+    justify-content: flex-start;
 }
 
 .main-content {
@@ -49,58 +46,51 @@
 }
 
 .main-content__title {
-    margin-top: 100px;
+    padding-top: 100px;
     width: 449px;
-    height: 192px;
     font: 400 58px/64px 'Crete Round', serif;
     color: #060C31;
 }
 
 .main-content__text {
-    margin-top: 42px;
+    padding: 42px 0 76px 0;
     width: 430px;
-    height: 84px;
     font: 400 15px/28px 'Lato', sans-serif;
     letter-spacing: 0.75px;
     color: #060C31;
 }
 
 .buttons-container {
-    margin-top: 76px;
     display: flex;
     flex-direction: row;
-    justify-content: left;
-    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: center;
     padding: 0px;
     gap: 20px;
 }
 
-.button-get-started {
+.button {
     font: 700 15px/0px 'Lato', sans-serif;
     color: #FFFFFF;
     background: #233FE2;
-    width: 156px;
-    height: 50px;
-    border: 0px;
+    padding: 23px 37px;
+    border: 1px solid #233FE2;
     border-radius: 50px;
+    text-decoration: none;
 }
 
-.button-create-account {
-    font: 700 15px/0px 'Lato', sans-serif;
+.button_transparent {
     color: #060C31;
     background: #ffffff;
-    width: 156px;
-    height: 46px;
+    padding: 23px 26px;
     border: 1px solid #FFB0B1;
-    border-radius: 50px;
 }
 
 .footer {
-    margin: 104px 0 0 548px;
+    padding: 104px 0 0 548px;
     width: 804px;
-    height: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: start;
+    align-items: flex-start;
 }
