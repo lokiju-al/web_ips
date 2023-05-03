@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+.page-wrapper {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    width: 422px;
+    background: rgba(0, 0, 0, 0.04);
+}
+
+.menu__avatar {
+    margin: 45px 131px 0;
+    border-radius: 253px;
+}
+
+.menu__title {
+    padding: 9px 0 36px 0;
+    font: 400 24px/36px 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.menu__links-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 14px;
+}
+
+.menu__link {
+    font: 400 16px/29px 'Montserrat', sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+}
+
+.menu__link_color-accent {
+    color: #000000;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 1500px;
+    background: #F8F9FA;
+}
+
+.footer {
+    width: 1500px;
+    background: #242423;
+}
+
+.footer__container {
+    padding: 80px 0 0 131px;
+    width: 1240px;
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer__recent-places {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.footer__title {
+    font: 400 16px/24px 'Poppins', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer__collage {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+.footer__questions-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+}
+
+.footer-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-contacts__contact {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.contact-place {
+    align-items: flex-start;
+}
+
+.contact-text {
+    width: 233px;
+    font: 400 14px/21px 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
+
+.contact-place-text {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer__copyright {
+    padding: 0 0 104px 6px;
+    font: 400 14px/25px 'Montserrat', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+}

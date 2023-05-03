@@ -1,0 +1,51 @@
+.about-me {
+    display: flex;
+    align-items: flex-start;
+}
+
+.about-me__content-wrapper {
+    position: relative;
+}
+
+.about-me__greetings-background {
+    position: absolute;
+    left: 86px;
+    top: 66px;
+    font: 700 69px/103px 'Poppins', sans-serif;
+    letter-spacing: 1.71667px;
+    color: #EDEDED;
+    z-index: 1;
+}
+
+.about-me__resume {
+    display: flex;
+    flex-direction: column;
+    padding: 90px 0 0 136px;
+    width: 654px;
+}
+
+.about-me__greetings {
+    font: 400 23px/43px 'Montserrat', sans-serif;
+    color: #BFBFBF;
+    z-index: 2;
+}
+
+.about-me__title {
+    font: 700 40px/60px 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+.about-me__title_color-accent {
+    color: #CCB78F;
+}
+
+.about-me__text {
+    padding: 34px 0 16px 0;
+    font: 400 18px/32px 'Montserrat', sans-serif;
+    color: #999999;
+}
+
+.about-me__signature {
+    font: 400 40px/60px 'Herr Von Muellerhoff', cursive;
+    color: rgba(0, 0, 0, 0.8);
+}
