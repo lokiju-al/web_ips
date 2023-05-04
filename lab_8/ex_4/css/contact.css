@@ -1,0 +1,78 @@
+.contact {
+    display: grid;
+    width: 100%;
+    grid-template-rows: 71px 78px 145px 48px 558px 56px;
+    grid-template-columns: 194px 255px 30px 255px 30px 255px 30px 255px;
+    background: #ffffff;
+}
+
+.contact__block {
+    padding: 24px;
+    font: 400 15px/27px 'Montserrat', sans-serif;
+    color: #999999;
+    background: #F8F9FA;
+}
+
+.contact_text-color-accent {
+    color: #1A1A1A;
+}
+
+.contact__title {
+    grid-area: 2 / 2 / 3 / 5;
+    padding-left: 7px;
+    font: 600 28px/42px 'Poppins', sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.contact__adress {
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.contact__phone {
+    grid-area: 3 / 4 / 4 / 5;
+}
+
+.contact__email {
+    grid-area: 3 / 6 / 4 / 7;
+}
+
+.contact__website {
+    grid-area: 3 / 8 / 4 / 9;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 48px;
+    grid-area: 5 / 2 / 6 / 5;
+}
+
+.form-field {
+    width: 422px;
+    height: 50px;
+    padding-left: 22px;
+    background: #FFFFFF;
+    border: 1px solid #CED4DA;
+}
+
+.form-textarea {
+    padding-top: 13.5px;
+    height: 155px;
+    resize: none;
+}
+
+::placeholder {
+    font: 400 15px/27px 'Montserrat', sans-serif;
+    color: #999999;
+}
+
+.form-button {
+    padding: 29px;
+    width: 215px;
+    background: #CCB78F;
+    border: 1px solid #CCB78F;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font: 400 15px/0px 'Montserrat', sans-serif;
+}
