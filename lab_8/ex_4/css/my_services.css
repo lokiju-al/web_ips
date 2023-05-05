@@ -1,0 +1,101 @@
+.my-services {
+    display: grid;
+    width: 100%;
+    grid-template-rows: 99px 116px 50px 133px 116px 50px 192px;
+    grid-template-columns: 178px 380px 380px 380px;
+    background: #ffffff;
+}
+
+.my-services__title {
+    padding: 0 8px;
+    font: 600 20px/30px 'Poppins', sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.my-services__text {
+    padding: 0 8px;
+    font: 500 15px/27px 'Montserrat', sans-serif;
+    color: #999999;
+}
+
+.equipment-icon {
+    padding: 32px 24px;
+    grid-area: 2 / 2;
+}
+
+.equipment-title {
+    grid-area: 3 / 2;
+}
+
+.equipment-text {
+    grid-area: 4 / 2;
+}
+
+.print-icon {
+    padding: 25px 20px;
+    grid-area: 2 / 3;
+}
+
+.print-title {
+    grid-area: 3 / 3;
+}
+
+.print-text {
+    grid-area: 4 / 3;
+}
+
+.focus-icon {
+    padding: 25px 24px;
+    grid-area: 2 / 4;
+}
+
+.focus-title {
+    grid-area: 3 / 4;
+}
+
+.focus-text {
+    grid-area: 4 / 4;
+}
+
+.sessions-icon {
+    padding: 24px 24px;
+    grid-area: 5 / 2;
+}
+
+.sessions-title {
+    grid-area: 6 / 2;
+}
+
+.sessions-text {
+    grid-area: 7 / 2;
+}
+
+.polaroid-pictures-icon {
+    padding: 24px 24px;
+    grid-area: 5 / 3;
+}
+
+.polaroid-pictures-title {
+    grid-area: 6 / 3;
+}
+
+.polaroid-pictures-text {
+    grid-area: 7 / 3;
+}
+
+.photo-film-icon {
+    padding: 24px 24px;
+    grid-area: 5 / 4;
+}
+
+.photo-film-title {
+    grid-area: 6 / 4;
+}
+
+.photo-film-text {
+    grid-area: 7 / 4;
+}
+
+.circle {
+    padding: 0;
+}
