@@ -60,7 +60,7 @@
     display: grid;
     width: 100%;
     grid-template-rows: 59px 34px 120px;
-    grid-template-columns: 379px 300px;
+    grid-template-columns: 25.4% 250px;
     background: #CCB78F;
 }
 
@@ -189,7 +189,6 @@
         background: #eeeff0;
     }
 
-
     .content {
         width: 100%;
     }
@@ -197,5 +196,13 @@
     .menu__links-wrapper {
         flex-direction: row;
         margin: 20px auto;
+    }
+
+    .header {
+        grid-template-columns: 15% 250px;
+    }
+
+    .footer__container {
+        padding-left: 6%;
     }
 }

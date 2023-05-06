@@ -1,8 +1,12 @@
+.content {
+    background: #ffffff;
+}
+
 .contact {
     display: grid;
     width: 100%;
     grid-template-rows: 71px 78px 145px 48px 558px 56px;
-    grid-template-columns: 194px 255px 30px 255px 30px 255px 30px 255px;
+    grid-template-columns: 12.93% 255px 30px 255px 30px 255px 30px 255px;
     background: #ffffff;
 }
 
@@ -25,19 +29,19 @@
 }
 
 .contact__adress {
-    grid-area: 3 / 2 / 4 / 3;
+    grid-area: 3 / 2;
 }
 
 .contact__phone {
-    grid-area: 3 / 4 / 4 / 5;
+    grid-area: 3 / 4;
 }
 
 .contact__email {
-    grid-area: 3 / 6 / 4 / 7;
+    grid-area: 3 / 6;
 }
 
 .contact__website {
-    grid-area: 3 / 8 / 4 / 9;
+    grid-area: 3 / 8;
 }
 
 .contact__form {
@@ -49,7 +53,7 @@
 }
 
 .form-field {
-    width: 422px;
+    width: 95.05%;
     height: 50px;
     padding-left: 22px;
     background: #FFFFFF;
@@ -75,4 +79,52 @@
     border-radius: 30px;
     color: #FFFFFF;
     font: 400 15px/0px 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 1700px) {
+    .contact {
+        grid-template-columns: 2% 22.7% 2% 22.7% 2% 22.7% 2% 22.7%;
+    }
+}
+
+@media screen and (max-width: 1014px) {
+    .contact {
+        grid-template-rows: 71px 78px 145px 48px 145px 48px 558px 56px;
+        grid-template-columns: 2% 47.3% 2% 47.3%;
+    }
+
+    .contact__email {
+        grid-area: 5 / 2;
+    }
+    
+    .contact__website {
+        grid-area: 5 / 4;
+    }
+    
+    .contact__form {
+        grid-area: 7 / 2 / 8 / 5;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contact {
+        grid-template-rows: 30px 50px 145px 12px 145px 12px 145px 12px 145px 12px 558px 56px;
+        grid-template-columns: 2% 96%;
+    }
+
+    .contact__phone {
+        grid-area: 5 / 2;
+    }
+
+    .contact__email {
+        grid-area: 7 / 2;
+    }
+    
+    .contact__website {
+        grid-area: 9 / 2;
+    }
+    
+    .contact__form {
+        grid-area: 11 / 2;
+    }
 }
