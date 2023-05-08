@@ -58,6 +58,12 @@
     color: rgba(0, 0, 0, 0.8);
 }
 
+@media screen and (max-width: 1700px) {
+    .about-me__greetings-background {
+        font-size: 60px;
+    }
+}
+
 @media screen and (max-width: 1500px) {
     .about-me {
         flex-direction: column-reverse;
@@ -69,8 +75,20 @@
     }
 }
 
+@media screen and (max-width: 830px) {
+    .about-me__greetings-background {
+        font-size: 40px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .about-me__greetings-background {
-        display: none;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .about-me__greetings-background {
+        font-size: 30px;
     }
 }

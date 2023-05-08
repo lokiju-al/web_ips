@@ -1,230 +1,60 @@
 .my-services {
+    padding: 99px 0 59px 178px;
     display: grid;
     width: 100%;
-    grid-template-rows: 99px 116px 50px 133px 116px 50px 192px;
-    grid-template-columns: 178px 380px 380px 380px;
+    grid-template-rows: repeat(2, 299px);
+    grid-template-columns: repeat(3, 380px);
     background: #ffffff;
 }
 
 .my-services__title {
-    padding: 0 8px;
+    padding: 16px 8px;
     font: 600 20px/30px 'Poppins', sans-serif;
-    color: rgba(0, 0, 0, 0.8);
+    color: #000000CC;
 }
 
 .my-services__text {
-    padding: 0 8px;
+    padding: 4px 8px;
     max-width: 280px;
     font: 500 15px/27px 'Montserrat', sans-serif;
     color: #999999;
 }
 
+.my-services__icon {
+    background: url('./../images/circle.png');
+    padding: 23.5px 22.5px;
+}
+
 .equipment-icon {
-    padding: 32px 24px;
-    grid-area: 2 / 2;
-}
-
-.equipment-title {
-    grid-area: 3 / 2;
-}
-
-.equipment-text {
-    grid-area: 4 / 2;
-}
-
-.print-icon {
-    padding: 25px 20px;
-    grid-area: 2 / 3;
-}
-
-.print-title {
-    grid-area: 3 / 3;
-}
-
-.print-text {
-    grid-area: 4 / 3;
-}
-
-.focus-icon {
-    padding: 25px 24px;
-    grid-area: 2 / 4;
-}
-
-.focus-title {
-    grid-area: 3 / 4;
-}
-
-.focus-text {
-    grid-area: 4 / 4;
+    padding: 31px 23px;
 }
 
 .sessions-icon {
-    padding: 24px 24px;
-    grid-area: 5 / 2;
-}
-
-.sessions-title {
-    grid-area: 6 / 2;
-}
-
-.sessions-text {
-    grid-area: 7 / 2;
-}
-
-.polaroid-pictures-icon {
-    padding: 24px 24px;
-    grid-area: 5 / 3;
-}
-
-.polaroid-pictures-title {
-    grid-area: 6 / 3;
-}
-
-.polaroid-pictures-text {
-    grid-area: 7 / 3;
+    padding: 22px 22px;
 }
 
 .photo-film-icon {
-    padding: 24px 24px;
-    grid-area: 5 / 4;
-}
-
-.photo-film-title {
-    grid-area: 6 / 4;
-}
-
-.photo-film-text {
-    grid-area: 7 / 4;
-}
-
-.circle {
-    padding: 0;
+    padding: 21.5px 23px;
 }
 
 @media screen and (max-width: 1730px) {
     .my-services {
-        grid-template-columns: 2% 32.5% 32.5% 32.5%;
+        padding-left: 2%;
+        grid-template-columns: repeat(3, 33.2%);
     }
 }
 
 @media screen and (max-width: 1014px) {
     .my-services {
-        grid-template-rows: 99px 116px 50px 133px 116px 50px 133px 116px 50px 192px;
-        grid-template-columns: 2% 48.8% 48.8%;
-    }
-
-    .focus-icon {
-        grid-area: 5 / 2;
-    }
-    
-    .focus-title {
-        grid-area: 6 / 2;
-    }
-    
-    .focus-text {
-        grid-area: 7 / 2;
-    }
-    
-    .sessions-icon {
-        grid-area: 5 / 3;
-    }
-    
-    .sessions-title {
-        grid-area: 6 / 3;
-    }
-    
-    .sessions-text {
-        grid-area: 7 / 3;
-    }
-    
-    .polaroid-pictures-icon {
-        grid-area: 8 / 2;
-    }
-    
-    .polaroid-pictures-title {
-        grid-area: 9 / 2;
-    }
-    
-    .polaroid-pictures-text {
-        grid-area: 10 / 2;
-    }
-    
-    .photo-film-icon {
-        grid-area: 8 / 3;
-    }
-    
-    .photo-film-title {
-        grid-area: 9 / 3;
-    }
-    
-    .photo-film-text {
-        grid-area: 10 / 3;
+        grid-template-rows: repeat(3, 299px);
+        grid-template-columns:  repeat(2, 48.8%);
     }
 }
 
 @media screen and (max-width: 680px) {
     .my-services {
-        grid-template-rows: 99px 116px 50px 133px 116px 50px 133px 116px 50px 133px 116px 50px 133px 116px 50px 133px 116px 50px 192px;
-        grid-template-columns: 12% 87.8%;
-    }
-
-    .print-icon {
-        grid-area: 5 / 2;
-    }
-    
-    .print-title {
-        grid-area: 6 / 2;
-    }
-    
-    .print-text {
-        grid-area: 7 / 2;
-    }
-
-    .focus-icon {
-        grid-area: 8 / 2;
-    }
-    
-    .focus-title {
-        grid-area: 9 / 2;
-    }
-    
-    .focus-text {
-        grid-area: 10 / 2;
-    }
-    
-    .sessions-icon {
-        grid-area: 11 / 2;
-    }
-    
-    .sessions-title {
-        grid-area: 12 / 2;
-    }
-    
-    .sessions-text {
-        grid-area: 13 / 2;
-    }
-    
-    .polaroid-pictures-icon {
-        grid-area: 14 / 2;
-    }
-    
-    .polaroid-pictures-title {
-        grid-area: 15 / 2;
-    }
-    
-    .polaroid-pictures-text {
-        grid-area: 16 / 2;
-    }
-    
-    .photo-film-icon {
-        grid-area: 17 / 2;
-    }
-    
-    .photo-film-title {
-        grid-area: 18 / 2;
-    }
-    
-    .photo-film-text {
-        grid-area: 19 / 2;
+        padding-left: 12%;
+        grid-template-rows: repeat(6, 299px);
+        grid-template-columns: 87.8%;
     }
 }
