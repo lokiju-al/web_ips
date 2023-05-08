@@ -1,0 +1,108 @@
+.collection {
+    position: relative;
+    padding: 27px 0 27px 26px;
+    display: grid;
+    width: 100%;
+    grid-template-rows: repeat(2, 250px);
+    grid-template-columns: repeat(3, 31.3%);
+    gap: 30px;
+    background: #ffffff;
+}
+
+.collection__block-air {
+    position: relative;
+    background: url(./../images/air.jpg);
+}
+
+.collection__block-forest {
+    position: relative;
+    background: url(./../images/forest.jpg);
+}
+
+.collection__block-lake {
+    position: relative;
+    background: url(./../images/lake.jpg);
+}
+
+.collection__block-path {
+    position: relative;
+    background: url(./../images/path.jpg);
+}
+
+.collection__block-mari-el {
+    position: relative;
+    background: url(./../images/mari_el.jpg);
+}
+
+.collection__block-water {
+    position: relative;
+    background: url(./../images/water.jpg);
+}
+
+.collection__shading-rectangle {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+.collection__title {
+    padding: 161px 0 0 24px;
+    font: 400 20px/30px 'Poppins', sans-serif;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.collection__text {
+    padding: 12px 0 0 24px;
+    font: 400 12px/22px 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFFCC;
+    z-index: 2;
+}
+
+.invisible-items {
+    opacity: 0;
+}
+
+.invisible-items:hover {
+    opacity: 1;
+}
+
+@media screen and (max-width: 1730px) {
+    .collection {
+        padding-left: 2%;
+        grid-template-columns: repeat(3, 31.4%);
+    }
+}
+
+@media screen and (max-width: 1485px) {
+    .collection {
+        padding-left: 8%;
+        grid-template-rows: repeat(3, 250px);
+        grid-template-columns: repeat(2, 43%);
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    .collection {
+        padding-left: 8%;
+        grid-template-rows: repeat(6, 250px);
+        grid-template-columns: 462px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .collection {
+        padding-left: 8%;
+        grid-template-columns: 89%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .collection {
+        padding-left: 8%;
+        grid-template-columns: 83%;
+    }
+}
