@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'beer money';
+    src: url('./../fonts/beer-money.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('./../fonts/SF-Pro-Display-Light.otf') format('opentype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('./../fonts/SF-Pro-Display-Regular.otf') format('opentype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('./../fonts/SF-Pro-Display-Medium.otf') format('opentype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('./../fonts/SF-Pro-Display-Semibold.otf') format('opentype');
+    font-weight: 600;
+}
+
+/* font-family: 'Inter', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    background: #F5F2EC;
+}
+
+.header {
+    margin: auto;
+    padding: 52px 0 81.4px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 77.3%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 44.05%;
+}
+
+.menu__link {
+    font: 400 25px/31px 'beer money', sans-serif;
+    color: #222222;
+    text-decoration-color: #00000000;
+}
+
+.menu__link:hover {
+    text-underline-offset: 2px;
+    text-decoration: underline 1px #222222;
+}
+
+.phone-call {
+    font: 400 20px/0px 'SF Pro Display', sans-serif;
+    color: #222222;
+    background: #F5F2EC;
+    padding: 19.5px 27px;
+    border: 1px solid #222222;
+    border-radius: 100px;
+}
+
+.resume {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+}
+
+.resume__organisation-text {
+    padding: 11px 0 14px 11.56%;
+    font: 500 20px/24px 'SF Pro Display', sans-serif;
+    letter-spacing: 0.2em;
+    color: #222222;
+}
+
+.resume__header {
+    padding-left: 11.56%;
+    font: 400 150px/150px 'beer money', sans-serif;
+    color: #3223E3E5;
+}
+
+.color-blue {
+    color: #5EB1FDE5;
+}
+
+.color-crimson {
+    color: #DA3058;
+}
+
+.color-green {
+    color: #4CCD7F;
+}
+
+.color-orange {
+    color: #F1641D;
+}
+
+.resume__picture-drawing {
+    position: absolute;
+    left: 56.9%;
+}
+
+.resume__picture-star {
+    position: absolute;
+    left: 54.79%;
+    top: 565px;
+}
+
+.resume__picture-line {
+    position: absolute;
+    top: 691px;
+    width: 100%;
+}
