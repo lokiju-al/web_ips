@@ -37,6 +37,7 @@
 }
 
 .page {
+    max-width: 1920px;
     display: flex;
     flex-direction: column;
     background: #F5F2EC;
@@ -82,20 +83,49 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-start; */
     align-items: flex-start;
 }
 
+.resume__picture-drawing {
+    position: absolute;
+    left: 56.9%;
+    width: 38.3%;
+    z-index: 0;
+}
+
+.resume__picture-star {
+    position: absolute;
+    left: 54.79%;
+    top: 565px;
+}
+
+.resume__picture-line {
+    position: absolute;
+    top: 691px;
+    width: 100%;
+}
+
+.resume__content {
+    padding: 11px 0 0 11.56%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 1;
+}
+
 .resume__organisation-text {
-    padding: 11px 0 14px 11.56%;
     font: 500 20px/24px 'SF Pro Display', sans-serif;
     letter-spacing: 0.2em;
     color: #222222;
 }
 
 .resume__header {
-    padding-left: 11.56%;
+    padding: 14px 0 37px 0;
     font: 400 150px/150px 'beer money', sans-serif;
+    color: #3223E3E5;
+}
+
+.color-navy {
     color: #3223E3E5;
 }
 
@@ -115,19 +145,122 @@
     color: #F1641D;
 }
 
-.resume__picture-drawing {
-    position: absolute;
-    left: 56.9%;
-}
-
-.resume__picture-star {
-    position: absolute;
-    left: 54.79%;
-    top: 565px;
-}
-
-.resume__picture-line {
-    position: absolute;
-    top: 691px;
+.text {
     width: 100%;
+    font: 300 24px/32px 'SF Pro Display', sans-serif;
+    color: #222222;
+}
+
+.resume__text {
+    width: 586px;
+    padding: 35px 18px 40px 38px;
+    background: #B3B2F2;
+    border-radius: 15px;
+    transform: matrix(1, -0.05, 0.05, 1, 0, 0);
+}
+
+.button {
+    margin: 65px 0 275px 0;
+    padding: 39px 73px;
+    font: 600 20px/0px 'SF Pro Display', sans-serif;
+    text-transform: uppercase;
+    color: #222222;
+    background: #F1641D;
+    box-shadow: 0px 4px 0px #000000;
+    border-radius: 50px;
+}
+
+.button:hover {
+    background: #FFBA52;
+}
+
+.activities {
+    position: relative;
+    width: 100%;
+}
+
+.activities__picture-star {
+    position: absolute;
+    left: 79.6%;
+    top: 85.9%;
+    width: 15.5%;
+    z-index: 0;
+}
+
+.activities__picture-line {
+    position: absolute;
+    top: 108%;
+    width: 100%;
+}
+
+.activities__content {
+    padding-left: 11.45%;
+    margin-bottom: 259px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+}
+
+.activities__header {
+    width: 100%;
+    padding-bottom: 15px;
+    font: 400 40px/44px 'beer money', sans-serif;
+    color: #222222;
+}
+
+.activities__specialize {
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.activities__picture-specialize {
+    padding: 2.22% 0 8.3% 0;
+    width: 100%;
+}
+
+.activities__help {
+    padding-right: 1.95%;
+    width: 28.6%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.activities__picture-help {
+    padding-bottom: 4.6%;
+    width: 100%;
+}
+
+.activities__autism {
+    width: 25.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 1;
+}
+
+.activities__picture-autism {
+    padding: 3.8% 0 9% 0;
+    width: 100%;
+}
+
+.specialists {
+    position: relative;
+    width: 100%;
+}
+
+.specialists__content {
+    width: 77%;
+    margin: 0 auto 171px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.specialists__header {
+    margin: auto;
+    font: 400 96px/100px 'beer money', sans-serif;
+    color: #222222;
 }
