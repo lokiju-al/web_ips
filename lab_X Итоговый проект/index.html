@@ -15,18 +15,22 @@
 <body class="page">
     <header class="header">
         <nav class="menu">
-            <a class="menu__link" href="#">О нас</a>
-            <a class="menu__link" href="#">Родителям</a>
-            <a class="menu__link" href="#">Достижения</a>
-            <a class="menu__link" href="#">Новости</a>
+            <button class="hamburger">
+                <span class="hamburger__line"></span>
+            </button>
+            <div class="menu__list">
+                <a class="menu__link" href="#">О нас</a>
+                <a class="menu__link" href="#">Родителям</a>
+                <a class="menu__link" href="#">Достижения</a>
+                <a class="menu__link" href="#">Новости</a>
+            </div>
         </nav>
-        <button class="phone-call">+7-967-757-02-71</button>
+        <button class="header__phone-call">+7-967-757-02-71</button>
     </header>
     <main>
         <div class="resume">
             <img class="resume__picture-drawing" src="./images/resume_drawing.png" alt="drawing">
             <img class="resume__picture-star" src="./images/resume_star.png" alt="star">
-            <img class="resume__picture-line" src="./images/resume_pencil_line.svg" alt="line">
             <div class="resume__content">
                 <p class="resume__organisation-text">Некоммерческая организация</p>
                 <h1 class="resume__header">
@@ -40,9 +44,9 @@
                     найти друзей, заниматься творчеством, быть самостоятельными и трудоспособными.</p>
                 <p class="button">Получить помощь</p>
             </div>
+            <img class="resume__line" src="./images/resume_pencil_line.svg" alt="line">
         </div>
         <div class="activities">
-            <img class="activities__picture-line" src="./images/activities_pencil_line.svg" alt="line">
             <img class="activities__picture-star" src="./images/activities_star.png" alt="star">
             <div class="activities__content">
                 <div class="activities__specialize">
@@ -61,30 +65,107 @@
                 </div>
                 <div class="activities__autism">
                     <img class="activities__picture-autism" src="./images/activities_autism.png" alt="autism">
-                    <p class="activities__header">Рассказываем о проблемах аутизма</p>
+                    <p class="activities__header">Рассказываем<br>о проблемах аутизма</p>
                     <p class="text">Вместе с волонтерами выходим на улицы, раздаем листовки и рассказываем об аутизме.
                         Показываем, что люди с аутизмом так же, как и все, достойны уважения и принятия.</p>
                 </div>
             </div>
+            <img class="activities__line" src="./images/activities_pencil_line.svg" alt="line">
         </div>
         <div class="specialists">
-            <img class="specialists__picture-line" src="./images/specialists_pencil_line.svg" alt="line">
+            <img class="specialists__picture-star-head" src="./images/specialists_star_green.png" alt="star">
             <img class="specialists__picture-star" src="./images/specialists_star.png" alt="star">
             <div class="specialists__content">
-                <p class="specialists__header">Они <span class="color-crimson">Р</span><span
-                        class="color-green">A</span><span class="color-navy">С</span><span
-                        class="color-orange">к</span><span class="color-green">р</span><span
-                        class="color-navy">а</span><span class="color-blue">ш</span><span
-                        class="color-orange">и</span><span class="color-navy">в</span><span
-                        class="color-blue">а</span><span class="color-green">ю</span><span class="color-orange">т</span>
+                <p class="block-title">Они <span class="color-crimson">Р</span><span class="color-green">A</span><span
+                        class="color-navy">С</span><span class="color-orange">к</span><span
+                        class="color-green">р</span><span class="color-navy">а</span><span
+                        class="color-blue">ш</span><span class="color-orange">и</span><span
+                        class="color-navy">в</span><span class="color-blue">а</span><span
+                        class="color-green">ю</span><span class="color-orange">т</span>
                     <span class="color-blue">м</span><span class="color-navy">и</span><span
-                        class="color-orange">р</span></p>
+                        class="color-orange">р</span>
+                </p>
+                <div class="specialists__spesialist-wrapper">
+                    <img class="specialists__picture-anna" src="./images/specialists_anna.png" alt="Anna">
+                    <div>
+                        <p class="specialists__title">Анна Шаганова</p>
+                        <p class="specialists__anna-resume">Наш председатель, специалист ABA, логопед, психолог,
+                            дефектолог.</p>
+                        <p class="text specialists__anna-text">Каждый год меня спрашивают: «Зачем мне это?» Для меня это
+                            то все равно, что спросить: «Зачем ты живёшь?!»… Я живу, чтобы понять себя, понять людей
+                            вокруг, узнать жизнь, насладиться каждым мгновением. Так почему в этом не может быть место
+                            аутизму? <br>Я вижу в них отражение себя, и может поэтому мне так легко с ними.</p>
+                    </div>
+                </div>
+                <div class="specialists__spesialist-wrapper">
+                    <div>
+                        <p class="specialists__title">Ольга Калинина</p>
+                        <p class="specialists__olga-resume">Учитель, специалист по работе с аутизмом.</p>
+                        <p class="text specialists__olga-text">Моя профессия очень интересная, сложная, захватывающая.
+                            Работа с людьми, имеющими особенности развития, требует постоянного самосовершенствования,
+                            самообразования. Я горжусь тем, что я учитель ОСОБЕННЫХ УЧЕНИКОВ!!! Спасибо родителям
+                            за доверие, за поддержку. Спасибо детям за их улыбки. Я ими горжусь!</p>
+                    </div>
+                    <img class="specialists__picture-olga" src="./images/specialists_olga.png" alt="Olga">
+                </div>
+            </div>
+            <img class="specialists__line" src="./images/specialists_pencil_line.svg" alt="line">
+        </div>
+        <div class="help">
+            <p class="block-title help__heading"><span class="color-crimson">Р</span><span
+                    class="color-green">A</span><span class="color-navy">С</span><span
+                    class="color-orange">к</span><span class="color-green">р</span><span
+                    class="color-navy">а</span><span class="color-blue">ш</span><span class="color-orange">и</span><span
+                    class="color-navy">в</span><span class="color-blue">а</span><span class="color-green">й</span><span
+                    class="color-orange">т</span><span class="color-navy">е</span>
+                <span class="color-blue">м</span><span class="color-navy">и</span><span class="color-orange">р</span>
+                вместе с нами
+            </p>
+            <div class="help__content">
+                <div class="help__volonteer">
+                    <div class="help__volonteer-picture-block">
+                        <img class="help__picture" src="./images/help_mask_group.png" alt="mask group">
+                        <img class="help__picture" src="./images/help_angels.png" alt="angels">
+                    </div>
+                    <div class="help__volonteer-text-block">
+                        <p class="help__title">Станьте волонтером</p>
+                        <p class="text">Для наших волонтёров мы проводим и обучение, и совместный отдых и, конечно,
+                            тренинги. Вклад каждого ценен для нас!</p>
+                    </div>
+                </div>
+                <div class="help__donate">
+                    <p class="help__title help__title-donate">Поддержите наш фонд материально</p>
+                    <p class="text help__donate-text">На эти деньги мы закупаем материалы для творчества, мастер
+                        классов, костюмы для представлений и оплачиваем работу специалистов, чтобы помогать детям как
+                        можно качественнее.</p>
+                    <button class="button help__button">Поддержать фонд</button>
+                </div>
             </div>
         </div>
+        <div class="contacts">
+            <img class="contacts__picture-star" src="./images/contacts_star.png" alt="star">
+            <div class="contacts__content">
+                <p class="block-title">Контакты </p>
+                <p class="contacts__information">Телефон: +7-967-757-02-71</p>
+                <p class="contacts__information contacts__address">Адрес: РМЭ, пгт Медведево, ул. Мира, д 18<br>Вход с
+                    торца.</p>
+                <p class="text">Обращаем ваше внимание, что посещение центра осуществляется строго по записи!</p>
+            </div>
+            <div class="contacts__map"></div>
+        </div>
     </main>
-    <footer>
-
+    <footer class="footer">
+        <a href="https://vk.com/raskrasmir12"><img class="footer__picture-vk" src="./images/footer_vk.svg" alt="vk"></a>
+        <div class="footer__content">
+            <div class="footer__menu">
+                <a class="menu__link" href="#">Родителям</a>
+                <a class="menu__link" href="#">Достижения</a>
+                <a class="menu__link" href="#">Новости</a>
+            </div>
+            <button class="footer__phone-call">+7-967-757-02-71</button>
+        </div>
     </footer>
+    <script src="./main.js"></script>
 </body>
 
 </html>
