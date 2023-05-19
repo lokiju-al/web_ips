@@ -35,6 +35,12 @@
     border: none;
 }
 
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
 .page {
     /* margin: 0 auto; */
     max-width: 1920px;
@@ -139,6 +145,22 @@
     transform-origin: center bottom;
 }
 
+.menu_open .hamburger::before {
+    transform: rotate(45deg);
+    top: 8px;
+}
+
+.menu_open .hamburger::after {
+    transform: rotate(-45deg);
+    top: 7px;
+}
+
+.menu_open .hamburger__line {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+
 .menu {
     display: flex;
     align-items: center;
@@ -162,22 +184,6 @@
 .menu__link:hover {
     text-underline-offset: 2px;
     text-decoration: underline 1px #222222;
-}
-
-.menu_open .hamburger::before {
-    transform: rotate(45deg);
-    top: 8px;
-}
-
-.menu_open .hamburger::after {
-    transform: rotate(-45deg);
-    top: 7px;
-}
-
-.menu_open .hamburger__line {
-    transform: translateX(-100%);
-    opacity: 0;
-    transition: all 0.2s ease-in-out;
 }
 
 .header__phone-call {
@@ -229,6 +235,10 @@
 .resume__line {
     padding: 108px 0 39px 0;
     width: 100%;
+}
+
+.resume__line-mobile {
+    display: none;
 }
 
 .resume__picture-drawing {
@@ -314,6 +324,19 @@
     width: 100%;
 }
 
+.activities__line-mobile {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
 .specialists {
     position: relative;
     width: 100%;
@@ -332,7 +355,6 @@
     left: 8%;
     top: 1%;
     width: 9%;
-    z-index: 0;
 }
 
 .specialists__picture-star {
@@ -340,7 +362,6 @@
     left: 71.8%;
     top: 92.5%;
     width: 3.7%;
-    z-index: 0;
 }
 
 .specialists__spesialist-wrapper {
@@ -349,6 +370,7 @@
 }
 
 .specialists__title {
+    position: relative;
     font: 400 60px/60px 'beer money', sans-serif;
     color: #222222;
 }
@@ -360,6 +382,7 @@
 }
 
 .specialists__anna-resume {
+    position: relative;
     width: 566px;
     margin-top: 15px;
     padding: 17px 26px 18px 37px;
@@ -370,6 +393,7 @@
 }
 
 .specialists__anna-text {
+    position: relative;
     width: 655px;
     margin-top: 35px;
     padding: 38px 38px 48px 37px;
@@ -572,31 +596,45 @@
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1280px) {
     .header {
         margin: 0;
         position: relative;
         justify-content: flex-end;
-        padding: 21px 29px;
-        width: 0%;
+        padding: 27px 0;
+        width: 100%;
+    }
+
+    .menu {
+        position: fixed;
+        padding: 18px 29px 12px 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        justify-content: flex-end;
+        background: #F5F2EC;
+        z-index: 7;
     }
 
     .hamburger {
         display: block;
     }
 
-    .menu {
-        position: fixed;
-        padding: 20px 0;
-        top: 0;
-        left: 0;
-        width: 100%;
-        justify-content: flex-end;
-        background: #F5F2EC;
-        z-index: 2;
-    }
-
-    .menu .menu__list {
+    .menu__list {
         padding: 20px 0;
         display: none;
         position: absolute;
@@ -616,11 +654,141 @@
     }
 
     .menu .menu__link {
-        width: 30%;
         text-align: center;
     }
 
     .header__phone-call {
         display: none;
+    }
+
+    .resume__content {
+        padding: 0;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .resume__organisation-text {
+        display: none;
+    }
+
+    .resume__header {
+        width: 300px;
+        padding: 0 0 228px 0;
+        text-align: center;
+        font: 400 75px/57px 'beer money', sans-serif;
+    }
+
+    .button {
+        padding: 28.5px 61.86px;
+        font: 500 16px/0px 'SF Pro Display', sans-serif;
+        z-index: 1;
+    }
+
+    .resume__text {
+        width: 325px;
+        padding: 17.52px 10.92px 21px 20px;
+        margin-bottom: 3px;
+        border-radius: 7px;
+        z-index: 0;
+    }
+
+    .text {
+        font: 300 12px/16px 'SF Pro Display', sans-serif;
+    }
+
+    .resume__picture-drawing {
+        left: 8.9%;
+        top: 30px;
+        width: 84%;
+        max-width: 485px;
+    }
+
+    .resume__picture-star {
+        width: 33px;
+        left: 84%;
+        top: 290px;
+    }
+
+    .resume__line {
+        display: none;
+    }
+
+    .resume__line-mobile {
+        display: block;
+        width: 100%;
+        padding: 20px 0 16px 0;
+    }
+
+    .activities__content {
+        padding-left: 7%;
+        flex-direction: column;
+    }
+
+    .activities__header {
+        padding-bottom: 15px;
+        font: 400 26px/32px 'beer money', sans-serif;
+    }
+
+    .activities__specialize,
+    .activities__help,
+    .activities__autism {
+        width: 92%;
+        max-width: 452px;
+    }
+
+    .activities__text {
+        font: 300 16px/19px 'SF Pro Display', sans-serif;
+    }
+
+    .activities__picture-autism {
+        padding: 5px 0 10px 0;
+        width: 100%;
+    }
+
+    .activities__line {
+        display: none;
+    }
+
+    .activities__line-mobile {
+        display: block;
+        width: 100%;
+        padding: 0 0 21px 0;
+    }
+
+    .activities__picture-star {
+        position: absolute;
+        left: 69.5%;
+        top: 61.1%;
+        width: 21%;
+        z-index: 2;
+    }
+
+    .block-title {
+        font: 400 30px/30px 'beer money', sans-serif;
+    }
+
+    .specialists {
+        padding-top: 25px;
+        background: #EBE1D7;
+        border-radius: 38px;
+    }
+
+    .specialists__title {
+        font: 400 30px/30px 'beer money', sans-serif;
+        z-index: 2;
+    }
+
+    .specialists__spesialist-wrapper {
+        flex-direction: column;
+        z-index: 0;
+    }
+
+    .specialists__picture-anna {
+        position: absolute;
+        left: 7%;
+        top: 12%;
+        width: 92%;
+        height: auto;
+        z-index: 0;
     }
 }
