@@ -733,8 +733,9 @@
     }
 
     .resume__header {
-        width: 600px;
-        padding: 0 0 228px 0;
+        width: 550px;
+        padding: 0 0 300px 0;
+        font: 400 150px/120px 'beer money', sans-serif;
         text-align: center;
     }
 
@@ -962,7 +963,7 @@
 @media screen and (max-width: 600px) {
     .resume__header {
         width: 300px;
-        text-align: center;
+        padding: 0 0 228px 0;
         font: 400 75px/57px 'beer money', sans-serif;
     }
 
